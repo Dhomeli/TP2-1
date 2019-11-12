@@ -14,7 +14,7 @@ for i in range(n):
         Matriz[i][j] = float(input())
 print(Matriz)
 
-#Sumando los elementos de la matriz leída:
+#Sumando los elementos de la matriz leída: 
 S = 0
 for i in range(n):
     for j in range(m):
@@ -42,9 +42,10 @@ print(C)
 
 #Hallando el menor de los totales columna:
 menor =C[0]
-for elemento in range(len(C)):
+for elemento in range(len(C)): 
     if C[elemento] < menor:
         menor = C[i]
 print(menor)
-
+suma=suma+1
+print(suma)
 
