@@ -47,5 +47,5 @@ for elemento in range(len(C)):
         menor = C[i]
 print(menor)
 suma=suma+1
-print(suma)
+print(suma))
 
